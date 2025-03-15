@@ -27,13 +27,13 @@ abc
 
 ## 2. 法國
 ### 2.1 凡爾賽宮 (Palace of Versailles)
-- 歷史背景
+~~- 歷史背景~~
 - 建築特色
 - 主要景點
 
 ### 2.2 巴黎聖母院 (Notre-Dame Cathedral)
-- 歷史背景
-- 建築特色
+- 歷史<sub>背</sub>景
+- 建築***特色***
 - 主要景點
 
 ### 2.3 羅浮宮 (Louvre Museum)
@@ -62,10 +62,10 @@ some features in a new line
 ### 4.1 聖家堂 (Sagrada Familia)
 - 歷史背景
 - 建築特色
-- 主要景點
+- 主要景點\*
 
 ### 4.2 阿罕布拉宮 (Alhambra)
-- 歷史背景
+- `歷史背景`
 - 建築特色
 - 主要景點
 
@@ -73,7 +73,7 @@ some features in a new line
 ### 5.1 新天鵝堡 (Neuschwanstein Castle)
 - 歷史背景
 - 建築特色
-- 主要景點
+- <ins>主</ins>要景點
 
 ### 5.2 柏林圍牆 (Berlin Wall)
 - 歷史背景
