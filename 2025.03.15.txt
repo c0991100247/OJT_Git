@@ -1,2 +1,6 @@
-https://meet.google.com/wuz-jexe-rhq
-note taking
+meeting room https://meet.google.com/wuz-jexe-rhq
+recording at https://www.youtube.com/watch?v=5IqD5F7SKuk
+
+2025.03.15 note taking
+1. will discuss about GitHub first, then Git
+2. 
