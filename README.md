@@ -14,3 +14,5 @@ markdown has many variance, and instructor follows markdown dialect of GitHub (a
 
 ## generate ipynb with colab
 it seems only possible to create an ipynb on google colab first, then save a copy to github
+
+from codespace, user can launch vscode with access to virtual machine that executes the script
