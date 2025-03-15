@@ -12,21 +12,3 @@ inside commit a message can be attached to memo update/revision in this file
 
 markdown has many variance, and instructor follows markdown dialect of GitHub (accessible by clicking the link on bottom right)
 
-# Trip to West Europe (tentative)
-## accomodation budget (14 nights) 36,000 NT
-- night train*1
-- Dresden*2 per night 2500 NT
-- Frankfurt*4 per night 2500 NT
-- Strasbourg*3 per night 3000 NT
-- Paris*4 per night 3000 NT
-## long-distance train fare 300 EUR total = 13,000 NT
-- night train from Brussel to Dresden EUR 89
-- Dresden to Frnakfurt EUR 40
-- Frankfurt to Strasbourg EUR 30
-- Strasbourg to Paris EUR 90
-- Paris to Brussel EUR 50
-## food
-- 2000 NT daily * 15 days = 30,000 NT
-## insurance, internet, gear 5,000 NT 
-
-# total cost est 84,000 NT (excl. airfare)
