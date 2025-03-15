@@ -5,9 +5,15 @@
 
 ## 1. 英國
 ### 1.1 倫敦塔 (Tower of London)
+測試不加上段落標號
+
+無法使用enter換行   
+but back slash is possible (also possible to double space in the end of sentence)
 - 歷史背景
-- 建築特色
-- 主要景點
+- 建築特色\
+abc
+- 主要景點\
+測試不加上段落標號
 
 ### 1.2 白金漢宮 (Buckingham Palace)
 - 歷史背景
@@ -32,7 +38,8 @@
 
 ### 2.3 羅浮宮 (Louvre Museum)
 - 歷史背景
-- 建築特色
+- 建築特色\
+some features in a new line
 - 主要景點
 
 ## 3. 義大利
