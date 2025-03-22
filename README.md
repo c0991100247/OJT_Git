@@ -50,6 +50,8 @@ git init
 rm -r .git
 ```
 - this function can be executed via VSCode interface, or terminal within VSCode
+- once a `.git` was created in a folder, all of its subfolders are linked
+- namely, do not create `.git` for subfoler
 ## VSCode
 - `U` untracked
 - `M` modified
