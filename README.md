@@ -60,3 +60,6 @@ rm -r .git
 1. change 變更
 2. staged change 儲存變更
 3. commit 提交 (with a commit message)
+![screenshot](./202503221135.png)
+> for commit message, `vim` syntax is used. `i` for insert, `ESC` exits the insert mode
+> `:w` indicates writ, while `:q` exits
