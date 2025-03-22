@@ -15,6 +15,7 @@
 - on GitHub, markdown syntax might differ from markdown(s) in other interface   
 [instruction](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - linebreak: back slash or double space in the end of sentence
+- other commands refer to [link](./subfolder/README.md)
 - crossout by tilda
 ```markdown
 ~~deleted~~
@@ -38,6 +39,7 @@ something to <ins>underscore</ins>
 - make sure to terminate a session to prevent credit/token exhaustion 
 
 # 2025.03.22 session
+![screenshot](./202503220938.png)
 ## Git setup
 - Git is default installed in Mac and Linux, but not in Windows
 - download via [download link](https://git-scm.com/downloads/win)
@@ -47,3 +49,12 @@ cd "(path)"
 git init
 rm -r .git
 ```
+- this function can be executed via VSCode interface, or terminal within VSCode
+## VSCode
+- `U` untracked
+- `M` modified
+- `D` deleted
+### procedure
+1. change 變更
+2. staged change 儲存變更
+3. commit 提交 (with a commit message)
