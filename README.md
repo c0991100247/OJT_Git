@@ -1,4 +1,4 @@
-# 2025.03.15 first session
+# 2025.03.15 session
 ## online meeting room
 - [meeting room](https://meet.google.com/wuz-jexe-rhq)
 ## prelim
@@ -36,3 +36,7 @@ something to <ins>underscore</ins>
 ## An online IDE: GitHub Codespaces 
 - from *Codespaces*, user can launch vscode with access to virtual machine that executes the script
 - make sure to terminate a session to prevent credit/token exhaustion 
+
+# 2025.03.22 session
+## Git setup
+- Git is default installed in Mac and Linux, but not in Windows
