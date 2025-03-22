@@ -40,3 +40,4 @@ something to <ins>underscore</ins>
 # 2025.03.22 session
 ## Git setup
 - Git is default installed in Mac and Linux, but not in Windows
+- download via [download link](https://git-scm.com/downloads/win)
