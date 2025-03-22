@@ -41,3 +41,9 @@ something to <ins>underscore</ins>
 ## Git setup
 - Git is default installed in Mac and Linux, but not in Windows
 - download via [download link](https://git-scm.com/downloads/win)
+## Git bash 
+```
+cd "(path)"
+git init
+rm -r .git
+```
