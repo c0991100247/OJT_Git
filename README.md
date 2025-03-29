@@ -96,3 +96,8 @@ rm -r .git
 1. create a folder via VSCode or finder, create a README.md, and  init git for this folder
 2. be familiar with stage (``add``) and unstage (``reset``)
 3. publish branch from local to GitHub (incl version history)
+4. **issue**: branch name main vs. master
+
+## relationship between commits
+- each commit records the change history of a set of files
+- the label ``main`` indicate the history of change is updated to this version
