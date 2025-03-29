@@ -91,3 +91,8 @@ rm -r .git
 3. (optional) following the path, add a space and create new folder name
 4. (alternative 1) use GitHub for desktop for graphical interface (login and password required)
 5. (alternative 2) use VSCode to clone from GitHub (login and password required). This option is preferred by instructor. Beware to switch folder when working on a non-track folder. Also, close the folder when tracking is no longer required.
+
+## synchronize a local folder onto GitHub
+1. create a folder via VSCode or finder, create a README.md, and  init git for this folder
+2. be familiar with stage (``add``) and unstage (``reset``)
+3. publish branch from local to GitHub (incl version history)
