@@ -83,3 +83,11 @@ rm -r .git
 2. use ``.gitignore`` command to filter which file *not* to track
 3. select a license for other users to utiliza this repo
 4. following steps above, the repo will be created with ``README.md``, ``.gitignore`` and ``LICENSE``
+5. once created, click CODE (green bottom, HTTPS tab) and retrieve git path ending with ``.git`` for clone into local PC
+
+## synchronize from GitHub to local PC
+1. change directory to subfolder in local PC
+2. ``git clone <GitHub path ending with .git>`` and wait for the synchronization
+3. (optional) following the path, add a space and create new folder name
+4. (alternative 1) use GitHub for desktop for graphical interface (login and password required)
+5. (alternative 2) use VSCode to clone from GitHub (login and password required). This option is preferred by instructor.
