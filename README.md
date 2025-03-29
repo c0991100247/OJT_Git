@@ -63,3 +63,23 @@ rm -r .git
 ![screenshot](./202503221135.png)
 > for commit message, `vim` syntax is used. `i` for insert, `ESC` exits the insert mode
 > `:w` indicates writ, while `:q` exits
+# 2025.03.29 session
+
+## principle of Git
+- git for each folder (i.e., repository)
+- do not use git for root directory
+- local git can by **synchronized** with a repository on GitHub (other cloud provider exists)
+
+## set up git on local PC
+1. [download link](https://git-scm.com/downloads)
+2. initiate batch console
+3. set up name and email on local PC ([instruction](https://stackoverflow.com/a/42167480))
+4. alternatively, beginner user can rely on Warp AI terminal for code support
+5. if set up glocal user name and email via the command ``git config --global``, the user name and email will be default for all subfolder
+6. it is also possible to create different user profiles for each subfolders
+
+## set up repository in GitHub
+1. adding a README.md for the repo can accelerate synchronization
+2. use ``.gitignore`` command to filter which file *not* to track
+3. select a license for other users to utiliza this repo
+4. following steps above, the repo will be created with ``README.md``, ``.gitignore`` and ``LICENSE``
