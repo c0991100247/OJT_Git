@@ -97,6 +97,8 @@ rm -r .git
 2. be familiar with stage (``add``) and unstage (``reset``)
 3. publish branch from local to GitHub (incl version history)
 4. **issue**: branch name main vs. master
+> The issue between main and master usually occurs because the default branch name for new repositories on GitHub changed from master to main in mid-2020. As a result, some repositories still use master as the default branch, while newer ones use main. (ChatGPT)
+5. *fastforward* means the change is an extension to existing main line, while the file history match that of the main line
 
 ## relationship between commits
 - each commit records the change history of a set of files
