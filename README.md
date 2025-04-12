@@ -103,3 +103,21 @@ rm -r .git
 ## relationship between commits
 - each commit records the change history of a set of files
 - the label ``main`` indicate the history of change is updated to this version
+
+# 2025.04.12 session
+## setup 
+- get a wifi receiver from TA
+- connect Raspberry Pi to power (wifi and SSH have been setup previously)
+- on PC download git and initiate
+- on PC download VS code, along with application `Remote-SSH` inside VS code
+- connect PC and Raspberry Pi (refer to LLM for instruction help) so user can control Raspberry Pi from PC keyboard and mouse
+- connect both device to GitHub
+## concept for the course
+- Raspberry Pi as second device; PC as first device
+- use GitHub as intermediary to synchronize collaboration between the 2 devices
+- a rule of thumb: always `pull` the latest edition before making change in a new device
+## FAQ
+- if `pull` version reports conflict, user may choose between `merge`, `rebase`, or `fast-forward` (available only via command line)
+- in command line, use `git fetch origin main` to check status from online repo
+- when there's a new version obtained via `git pull`, it will be committed automatically. A prompt will appear asking user to add note (in `vim` language)
+- `git log --oneline` provide information whether current `HEAD` is `main`
