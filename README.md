@@ -126,3 +126,11 @@ rm -r .git
 - then, when we pull from another device, an error message will appear prompting that change shall be commited before pull
 - best practice (?): always make change to the latest edition
 - `git push --force` this function will overwrite the edition on GitHub online. This shall not be executed when collaborating with other using the same repo
+## definition
+- `HEAD` means current location
+- `git merge` combines from branch and may trigger `fast-forward`
+- `claude` via `copilot` is available to draft and compile command in vscode
+## misc
+- aggregate commit provide a concise way to record update in git
+> squashing commits, and Git offers a few ways to do this. It’s super useful when you want to clean up your commit history before merging a branch — especially if you’ve made lots of small or messy commits.
+- there exist many AI tools in VSCode that support coding, such as `CLINE` which links to many LLM models and is able to executed files in VSCode environment
