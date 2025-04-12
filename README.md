@@ -121,3 +121,8 @@ rm -r .git
 - in command line, use `git fetch origin main` to check status from online repo
 - when there's a new version obtained via `git pull`, it will be committed automatically. A prompt will appear asking user to add note (in `vim` language)
 - `git log --oneline` provide information whether current `HEAD` is `main`
+## concept of conflicted version
+- we replicate this conflict by editing the same filename on two devices (PC and Raspberry Pi) without pull, and commit the change to GitHub
+- then, when we pull from another device, an error message will appear prompting that change shall be commited before pull
+- best practice (?): always make change to the latest edition
+- `git push --force` this function will overwrite the edition on GitHub online. This shall not be executed when collaborating with other using the same repo
