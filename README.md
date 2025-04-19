@@ -140,4 +140,10 @@ rm -r .git
 - enter git repo stored in Raspberry Pi via Warp
 - `nano` is an editor on Raspberry Pi
 - in brief, we can manipulate raspberry pi from Warp as well as VSCode
-- 
+## connection between GitHub and local git
+- create token from GitHub is one way of authentication. This is useful with GitHub CLI (commandline login, possible via Raspberry Pi but not lab PC due to campus security setting)
+- `SSH` connection funcions are useful while set repo-specific connection
+## troubleshooting
+- simulate conflict when a push is rejected due to update from another user on the branch
+- simulate conflict when two users edit the same file
+![screenshot](./202504191609.png)
