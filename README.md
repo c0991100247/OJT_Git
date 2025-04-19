@@ -134,3 +134,10 @@ rm -r .git
 - aggregate commit provide a concise way to record update in git
 > squashing commits, and Git offers a few ways to do this. It’s super useful when you want to clean up your commit history before merging a branch — especially if you’ve made lots of small or messy commits.
 - there exist many AI tools in VSCode that support coding, such as `CLINE` which links to many LLM models and is able to executed files in VSCode environment
+# 2025.04.19 session
+## Warp AI terminal
+- use `Ctrl + I` for LLM support
+- enter git repo stored in Raspberry Pi via Warp
+- `nano` is an editor on Raspberry Pi
+- in brief, we can manipulate raspberry pi from Warp as well as VSCode
+- 
