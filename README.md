@@ -177,4 +177,6 @@ rm -r .git
 - important: before making revision, create a new branch in local
 - after revision is made, sync fork, and launch a pull request
 ![screenshot](./fork.png)
-- 
+## git tag
+- allow commit to have a tag to distinguish between versions
+- namely, one may add a tag after numerous commits and define that specific versino by tag
