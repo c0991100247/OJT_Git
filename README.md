@@ -165,16 +165,16 @@ rm -r .git
 - `git unstage` as its name suggests
 - `git reset commit ID --hard` discards all change
 - `git reset commit ID --mixed` make modification back to working space (unstaged change) and removing the commit
-- `git reset commit ID --soft`` make modification back to staged
+- `git reset commit ID --soft` make modification back to staged
 - `HEAD^` represents the latest commit ID, while `HEAD~3` represents the first three commits
 
-
-```
-Git is a cornerstone of research reproducibility, especially in fields like economics research, where transparency and the ability to replicate results are paramount. By making programming scripts available through platforms like GitHub, researchers ensure that their work can be easily cloned, verified, and built upon, fostering a culture of integrity and collaborative research. Mastering Git and GitHub is crucial for any academic researcher, as it empowers them to share their code efficiently, track revisions, and collaborate seamlessly across teams.
-
-I recently completed an intensive training at Chilee University of Technology in New Taipei City, spanning six weekends from March to April. This training focused on enhancing my skills in Git, GitHub, and remote programming tools, providing me with essential knowledge for version control, collaborative development, and cross-device synchronization in research projects. The course also introduced me to Raspberry Pi configuration via SSH, and I used WARP, an LLM-based terminal, for remote management. I also leveraged VSCode’s Remote-SSH extension to facilitate cross-device collaboration and streamline development workflows.
-
-Throughout the training, I enhanced my coding practices with AI tools like CLINE and GitHub Copilot, integrating LLM support to automate tasks and solve problems more efficiently. I would like to express my gratitude to our teaching assistant, [TA’s LinkedIn Profile], for their invaluable support during this course. Additionally, I am deeply thankful to the Ministry of Labor for their generous funding, which made this opportunity possible. This training has significantly improved my capacity for collaborative academic work, and I look forward to applying these skills to future research projects.
-
-#Git #GitHub #ResearchReproducibility #EconomicsResearch #AI #LLM #StatisticalProgramming #RaspberryPi #RemoteDevelopment #TechTraining #AcademicCollaboration #MinistryOfLabor
-```
+## amend
+- `git commit --amend -m "(descrip)"` kills the current commit and combine amendament into a new commit
+- `'commit -a' will apply the commit to those staged (tracked) items
+- `git rebase -i HEAD~3` commands mofication of existing first 3 commits via an interactive interface. this command prompts a notebook so user can edit following instruction on the notebook (useful to combine minor commits before push to main branch)
+## git fork
+- fork from other's repo, clone to local folder, make revisions
+- important: before making revision, create a new branch in local
+- after revision is made, sync fork, and launch a pull request
+![screenshot](./fork.png)
+- 
