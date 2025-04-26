@@ -158,6 +158,17 @@ rm -r .git
 - in plan mode, choose google gemini and insert API key
 - other API is available, such as OpenRouter
 - vibe coding (programming using natural language, in contrast to LLM)
+
+## stage vs unstage, commit, and git reset
+- a naive principle is to push modification to your own branch instead of organization's master branch unless being authorized
+- `git log --oneline` shows commit ID
+- `git unstage` as its name suggests
+- `git reset commit ID --hard` discards all change
+- `git reset commit ID --mixed` make modification back to working space (unstaged change) and removing the commit
+- `git reset commit ID --soft`` make modification back to staged
+- `HEAD^` represents the latest commit ID, while `HEAD~3` represents the first three commits
+
+
 ```
 Git is a cornerstone of research reproducibility, especially in fields like economics research, where transparency and the ability to replicate results are paramount. By making programming scripts available through platforms like GitHub, researchers ensure that their work can be easily cloned, verified, and built upon, fostering a culture of integrity and collaborative research. Mastering Git and GitHub is crucial for any academic researcher, as it empowers them to share their code efficiently, track revisions, and collaborate seamlessly across teams.
 
