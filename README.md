@@ -147,3 +147,23 @@ rm -r .git
 - simulate conflict when a push is rejected due to update from another user on the branch
 - simulate conflict when two users edit the same file
 ![screenshot](./202504191609.png)
+# 2025.04.26 session
+## vscode extension
+- gemini code assistant
+- copilot (best performance)
+- CLINE
+## CLINE
+- plan mode: conversation
+- act mode: have CLINE to modify files on my behalf
+- in plan mode, choose google gemini and insert API key
+- other API is available, such as OpenRouter
+- vibe coding (programming using natural language, in contrast to LLM)
+```
+Git is a cornerstone of research reproducibility, especially in fields like economics research, where transparency and the ability to replicate results are paramount. By making programming scripts available through platforms like GitHub, researchers ensure that their work can be easily cloned, verified, and built upon, fostering a culture of integrity and collaborative research. Mastering Git and GitHub is crucial for any academic researcher, as it empowers them to share their code efficiently, track revisions, and collaborate seamlessly across teams.
+
+I recently completed an intensive training at Chilee University of Technology in New Taipei City, spanning six weekends from March to April. This training focused on enhancing my skills in Git, GitHub, and remote programming tools, providing me with essential knowledge for version control, collaborative development, and cross-device synchronization in research projects. The course also introduced me to Raspberry Pi configuration via SSH, and I used WARP, an LLM-based terminal, for remote management. I also leveraged VSCode’s Remote-SSH extension to facilitate cross-device collaboration and streamline development workflows.
+
+Throughout the training, I enhanced my coding practices with AI tools like CLINE and GitHub Copilot, integrating LLM support to automate tasks and solve problems more efficiently. I would like to express my gratitude to our teaching assistant, [TA’s LinkedIn Profile], for their invaluable support during this course. Additionally, I am deeply thankful to the Ministry of Labor for their generous funding, which made this opportunity possible. This training has significantly improved my capacity for collaborative academic work, and I look forward to applying these skills to future research projects.
+
+#Git #GitHub #ResearchReproducibility #EconomicsResearch #AI #LLM #StatisticalProgramming #RaspberryPi #RemoteDevelopment #TechTraining #AcademicCollaboration #MinistryOfLabor
+```
